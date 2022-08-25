@@ -1,0 +1,391 @@
+
+#
+# Camera sensors from 
+#    www.cs.sfu.ca/~colour/data/colour_constancy_synthetic_test_data/index.html
+# 
+# Please refer to that web page for data description. 
+#
+
+
+#
+# Fit command:
+#    qf-r nlt=2 green-lp=.2 red-lp=.3 blue-lp=.25 min-data-value = 15 max-data-value = 240  blambda=0.002  glambda=0.01 rlambda=0.01
+#
+#    Num fourier basis functions is not limited.
+#    Red peak location is 584.
+#    Green peak location is 524.
+#    Blue peak location is 456.
+#    Fourier lambda is 1000
+
+
+
+# Red Sensor Response
+# 
+# Relative Error Quadratic Fit
+# Smoothness Lambda : 0.0100  
+# Second derivative minumum is not constrained.
+# Second derivative maximum is not constrained.
+
+# Range : 380-784
+# Maximum outside range (height epsilon) : 0.0
+# 
+# Min data value: 15.00
+# Max data value: 240.00
+# 
+# Linearization
+#     Num linearization terms: 2
+#     Linearization method:    exp(-p(x - k))
+#     Linearization parameter: 0.30
+
+#     Offset:  7.32
+#     Coeff 1: 5.879
+#
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+82.2
+131.2
+447.1
+1069.6
+1945.5
+2974.9
+4039.8
+5024.7
+5834.7
+6404.4
+6696.6
+6696.6
+6500.8
+6127.0
+5609.9
+5003.1
+4379.1
+3822.0
+3375.4
+3027.9
+2751.4
+2520.4
+2313.4
+2111.7
+1902.2
+1681.5
+1454.9
+1233.8
+1030.6
+854.4
+707.5
+584.3
+474.9
+369.8
+263.5
+157.5
+62.7
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+# 
+# 
+# Green Sensor Response
+# 
+# Relative Error Quadratic Fit
+# Smoothness Lambda : 0.0100  
+# Second derivative minumum is not constrained.
+# Second derivative maximum is not constrained.
+
+# Range : 380-784
+# Maximum outside range (height epsilon) : 0.0
+# 
+# Min data value: 15.00
+# Max data value: 240.00
+# 
+# Linearization
+#     Num linearization terms: 2
+#     Linearization method:    exp(-p(x - k))
+#     Linearization parameter: 0.20
+
+#     Offset:  10.28
+#     Coeff 1: 2.617
+#
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+67.2
+105.6
+242.2
+524.6
+987.2
+1646.6
+2494.6
+3497.1
+4601.3
+5743.1
+6853.4
+7863.0
+8704.9
+9317.7
+9646.8
+9646.8
+9534.9
+9285.7
+8885.2
+8332.4
+7639.0
+6816.9
+5883.6
+4871.5
+3826.6
+2805.5
+1871.5
+1087.7
+505.3
+147.7
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+# 
+# 
+# Blue Sensor Response
+# 
+# Relative Error Quadratic Fit
+# Smoothness Lambda : 0.0020  
+# Second derivative minumum is not constrained.
+# Second derivative maximum is not constrained.
+
+# Range : 380-784
+# Maximum outside range (height epsilon) : 0.0
+# 
+# Min data value: 15.00
+# Max data value: 240.00
+# 
+# Linearization
+#     Num linearization terms: 2
+#     Linearization method:    exp(-p(x - k))
+#     Linearization parameter: 0.25
+
+#     Offset:  9.07
+#     Coeff 1: 4.355
+#
+1853.4
+3224.9
+4578.2
+5892.8
+7163.4
+8412.8
+9682.2
+10997.2
+12331.1
+13639.0
+14890.4
+16070.3
+17181.2
+18248.0
+19293.9
+20263.4
+21015.5
+21426.4
+21426.4
+21017.8
+20196.2
+19046.5
+17640.6
+16043.0
+14283.6
+12313.8
+9962.0
+7097.2
+4021.1
+1472.4
+117.6
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+21.2
+18.5
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
